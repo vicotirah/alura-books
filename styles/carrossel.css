@@ -26,3 +26,24 @@
     position: initial;
     margin: 0.8em 0;
 }
+
+.card {
+    font-family: var(--fonte-primaria);
+}
+
+.card__descricao {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.descricao__titulo {
+    color: var(--cor-laranja);
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.card__botoes {
+    display: flex;
+    justify-content: space-between;
+}

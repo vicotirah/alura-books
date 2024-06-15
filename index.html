@@ -65,9 +65,6 @@
                 <!-- Slides -->
                 <div class="swiper-slide"><img src="assets/ApacheKafka.svg"
                         alt="Livro sobre Apache Kafka e Spring Boot da AluraBooks"></div>
-                <div class="swiper-slide"><img src="assets/ApacheKafka.svg"
-                        alt="Livro sobre Apache Kafka e Spring Boot da AluraBooks">
-                </div>
                 <div class="swiper-slide"><img src="assets/Acessibilidade.svg"
                         alt="Livro sobre Acessibilidade da AluraBooks"></div>
                 <div class="swiper-slide"><img src="assets/Liderança.svg"
@@ -77,21 +74,58 @@
                 <div class="swiper-slide"><img src="assets/Guia Front-end.svg"
                         alt="Livro sobre Front-end da AluraBooks"></div>
                 <div class="swiper-slide"><img src="assets/Portugol.svg" alt="Livro sobre Portugol da AluraBooks"></div>
+                <div class="swiper-slide"><img src="assets/Angular.svg" alt="Livro sobre Angular da AluraBooks"></div>
+                <div class="swiper-slide"><img src="assets/Arquitetura.svg"
+                        alt="Livro sobre Arquiterura de Software da AluraBooks"></div>
+                <div class="swiper-slide"><img src="assets/Construct2.svg" alt="Livro sobre Construct da AluraBooks">
+                </div>
+                <div class="swiper-slide"><img src="assets/Gestão2.svg" alt="Livro sobre Gestão da AluraBooks"></div>
+                <div class="swiper-slide"><img src="assets/MEAN.svg" alt="Livro sobre Mean da AluraBooks"></div>
+                <div class="swiper-slide"><img src="assets/MetricasAgeis.svg"
+                        alt="Livro sobre Métricas Ágeis da AluraBooks"></div>
+                <div class="swiper-slide"><img src="assets/ReactNative.svg"
+                        alt="Livro sobre React Native da AluraBooks"></div>
+                <div class="swiper-slide"><img src="assets/Tuning.svg" alt="Livro sobre Tuning da AluraBooks"></div>
+                <div class="swiper-slide"><img src="assets/UX.svg" alt="Livro sobre UX da AluraBooks"></div>
             </div>
             <!-- If we need navigation buttons -->
             <div class="swiper-button-prev"></div>
             <div class="swiper-button-next"></div>
 
         </div>
+        <div class="card">
+            <!--1ª Linha-->
+            <div class="card__descricao">
+                <!--1ª Coluna-->
+                <div class="descricao">
+                    <h3 class="descricao__titulo">Talvez você também se interesse por...</h3>
+                    <h2 class="descricao__titulo__Livro">Angular 11 e Firebase</h2>
+                    <p>Construindo uma aplicação integrada com a plataforma do Google.</p>
+                </div>
+                <img class="descricao__imagem" src="assets/AngularLogo.svg" alt="Livro Angular">
+            </div>
+            <!--2ª Linha-->
+            <div class="card__botoes">
+                <!--1ª Coluna-->
+                <ul class="botoes">
+                    <li class="botoes__item"><img src="assets/Favoritos.svg" alt="favoritos"></li>
+                    <li class="botoes__item"><img src="assets/Sacola.png" alt="items do carrinho"></li>
+                </ul>
+                <a href="#" class="botoes__ancora">Saiba Mais</a>
+            </div>
+
+
+        </div>
     </section>
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js">
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script>
         const swiper = new Swiper('.swiper', {
             spaceBetween: 10,
             slidesPerView: 3,
             pagination: {
                 el: '.swiper-pagination',
                 type: 'bullets',
-            }
+            },
         });
     </script>
 </body>
