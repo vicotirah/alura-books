@@ -37,3 +37,25 @@
     font-weight: 700;
 
 }
+
+@media screen and (min-width: 1024px) {
+    .linha__branca {
+        display: none;
+    }
+
+    .topicos__titulo {
+        font-size: 1.5rem;
+        margin-top: 1em;
+        margin-bottom: 1.5em;
+    }
+
+    .topicos__item a {
+        font-size: 1.25rem;
+        font-weight: 700;
+    }
+
+    .topicos__item {
+        margin: 2.5em 4em;
+        padding: 2em;
+    }
+}

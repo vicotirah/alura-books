@@ -3,6 +3,7 @@
 @import url("styles/carrossel.css");
 @import url("styles/topicos.css");
 @import url("styles/contato.css");
+@import url("styles/rodape.css");
 
 :root {
     --cor-de-fundo: #ebecee;
@@ -10,6 +11,8 @@
     --cor-laranja: #EB9B00;
     --cor-azul: #002F52;
     --cor-preto: #000000;
+    --cor-cinza-claro: #858585;
+    --cor-cinza-escuro: #474646;
     --azul-degrade: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
     --fonte-primaria: "Poppins";
     --fonte-secundaria: "Josefin Sans";
