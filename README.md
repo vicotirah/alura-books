@@ -40,6 +40,10 @@
 * Editar input e seu placeholder.
 
 ### 04. Selecionando Media Queries 💿
+* Usar media queries;
+* Aplicar diferentes estilos para diferentes tamanhos de tela;
+* Retirar elementos da tela;
+* Aplicar elementos na tela de acordo com o tamanho do dispositivo.
 
 ### 05. Produzindo CSS no desktop 🖥️
 
