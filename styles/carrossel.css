@@ -142,3 +142,43 @@
         width: 70%;
     }
 }
+
+@media screen and (min-width: 1728px) {
+    .carrossel__container {
+        display: flex;
+        margin: 0.5em 10vw 1.5em 10vw;
+        align-items: center;
+    }
+
+    .swiper-pagination {
+        position: initial;
+        margin: 1em 0;
+    }
+
+    .swiper {
+        width: 50%;
+    }
+
+    .descricao__titulo {
+        font-size: 2rem;
+        margin-top: 1em;
+    }
+
+    .card {
+        margin-left: 3em;
+        width: 45%;
+    }
+
+    .carrossel__autor {
+        display: flex;
+        margin: 1em 10vw 1em 10vw;
+        align-items: center;
+        justify-content: baseline;
+
+    }
+
+    .titulo__autor {
+        font-size: 2rem;
+        margin-top: 0.5em;
+    }
+}
