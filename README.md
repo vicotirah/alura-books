@@ -50,3 +50,8 @@
 * Usar estilos diferentes no mesmo elemento com pseudo-classes.
 
 ### 06. Publicando o projeto 📤
+* Construir um repositório com o código do curso;
+* Escrever commits;
+* O que é deploy;
+* Fazer deploy no Github Pages;
+* Abrir o projeto em outros dispositivos.
